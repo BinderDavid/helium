@@ -1,0 +1,12 @@
+packages: ./*.cabal
+
+source-repository-package
+    type: git
+    location: https://github.com/BinderDavid/lvm.git
+    tag: 37a23e603f6fc12d26ee46b2001cebd89ef83bc5
+    subdir: src/lib/
+
+source-repository-package
+    type: git
+    location: https://github.com/BinderDavid/Top.git
+    tag: 25389069ebc776b65ecf287c453a82e380fcbb46
